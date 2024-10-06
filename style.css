@@ -206,3 +206,40 @@ nav a:nth-child(4):hover~.animation {
     }
   }
 
+  /* General Styles */
+body {
+  font-family: 'Open Sans', sans-serif;
+  background: #2F4858;
+  color: #FFFFFF; /* Ubah warna teks seluruh halaman menjadi putih */
+}
+
+/* Portfolio Section */
+.portfolio {
+  background-color: #2F4858;
+  padding: 50px 0;
+  color: #EEEEEE;
+  text-align: center;
+  animation: fadeInUp 2s ease;
+}
+
+.portfolio-item {
+  margin: 20px;
+  display: inline-block;
+  width: 30%;
+}
+
+.portfolio-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.portfolio-item h3 {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.portfolio-item p {
+  font-size: 16px;
+}
